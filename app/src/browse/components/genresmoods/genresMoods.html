@@ -1,0 +1,12 @@
+<div class="section-divider genres-section">
+	<div>Genres &amp; Moods</div>
+</div>
+<div id="genresAndMoods">
+	<div class="row mini-container">
+		<spotyngular2-browse-mini-card
+			*ng-for="#genre of genres"
+			[image]="genre.image"
+			[name]="genre.name">
+		</spotyngular2-browse-mini-card>
+	</div>
+</div>
