@@ -1,0 +1,29 @@
+{
+  "name": "Spotyngular2",
+  "description": "A Spotify Clone made in AngularJS 2",
+  "main": "index.html",
+  "authors": [
+    "Sergio <sss4esob@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "2",
+    "TypeScript",
+    "JSPM",
+    "Gulp",
+    "Bootstrap"
+  ],
+  "homepage": "https://github.com/sergio11/spotyngular2",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootswatch-sass": "^3.3.1"
+  }
+}

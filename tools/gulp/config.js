@@ -42,7 +42,7 @@ module.exports = {
   watch: {
     html: app + '/**/*.html',
     scripts: src + '/**/*.ts',
-    sass: app + '/**/*.scss',
+    sass: app + '/**/*.sass',
     assets: app + '/assets/**/*.*'
   },
   app: app,
@@ -77,13 +77,13 @@ module.exports = {
 
   sass: {
     development: {
-      main: app + '/scss/app.scss',
-      source: src + '/**/*.scss',
+      main: app + '/sass/app.sass',
+      source: src + '/**/*.sass',
       dest: development + '/assets'
     },
     production: {
-      main: app + '/scss/app.scss',
-      source: src + '/**/*.scss',
+      main: app + '/sass/app.sass',
+      source: src + '/**/*.sass',
       dest: production + '/assets'
     }
   },
