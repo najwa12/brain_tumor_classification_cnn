@@ -1,9 +1,9 @@
 import {Component, View} from 'angular2/angular2';
 import {RouteConfig, RouterOutlet} from 'angular2/router';
 
-import {LeftNav} from 'spotyngular/leftNav';
-import {BrowsePage} from 'spotyngular/browse/page';
-import {PlaylistPage} from 'spotyngular/playlist/page';
+import {LeftNav} from 'spotyngular2/leftnav/leftNav';
+import {BrowsePage} from 'spotyngular2/browse/page';
+import {PlaylistPage} from 'spotyngular2/playlist/page';
 
 @RouteConfig([
   {

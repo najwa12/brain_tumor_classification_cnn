@@ -1,7 +1,7 @@
 import {NgFor, Component, View} from 'angular2/angular2';
 
-import {GenresService} from 'spotyngular/browse/genresService';
-import {BrowseMiniCard} from 'spotyngular/browse/components/minicard/miniCard';
+import {GenresService} from 'spotyngular2/browse/genresService';
+import {BrowseMiniCard} from 'spotyngular2/browse/components/minicard/miniCard';
 
 const SERVER = "http://localhost:3000/genres";
 
