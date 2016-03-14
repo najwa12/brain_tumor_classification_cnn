@@ -1,6 +1,3 @@
-import 'ng2-material/dist/ng2-material.css!';
-import 'assets/material-icons.css!';
-import 'assets/app.css!';
 
 import 'reflect-metadata';
 import 'es6-shim';
