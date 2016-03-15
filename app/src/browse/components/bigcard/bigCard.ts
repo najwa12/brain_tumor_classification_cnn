@@ -1,4 +1,4 @@
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 
 @Component({
 	selector: 'spotyngular2-browse-big-card',

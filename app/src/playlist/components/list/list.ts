@@ -1,6 +1,6 @@
-import {NgFor, Component, View} from 'angular2/angular2';
+import {NgFor, Component, View} from 'angular2/core';
 
-import {UrlService} from 'spotyngular2/urlService';
+import {UrlService} from 'src/urlService';
 
 @Component({
 	selector: 'spotyngular2-playlist-list'	

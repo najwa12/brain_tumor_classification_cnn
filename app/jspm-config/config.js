@@ -1,7 +1,4 @@
-//With System.paths we can set up where our files are located
-System.paths = {
-  "spotyngular2/*": "src/*.ts",
-};
+
 
 System.config({
   defaultJSExtensions: true,

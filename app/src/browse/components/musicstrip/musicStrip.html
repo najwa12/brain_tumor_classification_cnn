@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="crsl-inner">
 				<spotyngular2-browse-big-card 
-					*ng-for="#feature of featuredPlaylist"
+					*ngFor="#feature of featuredPlaylist"
 					(^click)="seePlaylist($event, feature)"
 					[name]="feature.name"
 					[image]="feature.image"

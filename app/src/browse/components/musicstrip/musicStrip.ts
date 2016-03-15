@@ -1,11 +1,13 @@
-import {NgFor, Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
+import {NgFor} from 'angular2/common';
 import {Http} from 'angular2/http';
 import {Router} from 'angular2/router';
 
-import {UrlService} from 'spotyngular2/urlService';
-import {BrowseBigCard} from 'spotyngular2/browse/components/bigcard/bigCard';
+import {UrlService} from 'src/urlService';
+import {BrowseBigCard} from 'src/browse/components/bigcard/bigCard';
 
 const SERVER = "http://localhost:3000/featuredPlaylist";
+
 
 @Component({
 	selector: 'spotyngular2-browse-music-strip'	
@@ -17,9 +19,9 @@ const SERVER = "http://localhost:3000/featuredPlaylist";
 export class BrowseMusicStrip{
 	featuredPlaylist: any = [];
 	constructor(private router: Router, private http:Http, private urlService: UrlService){
-		http.get(SERVER)
+		/*http.get(SERVER)
 			.map(res => res.json())
-			.subscribe(features => this.featuredPlaylist = features.slice(0,4));
+			.subscribe(features => this.featuredPlaylist = features.slice(0,4));*/
 	}
 
 	public seePlaylist(event, feature){

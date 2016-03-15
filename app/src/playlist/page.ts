@@ -1,8 +1,8 @@
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 
-import {PlaylistHeader} from 'spotyngular2/playlist/components/header/header';
-import {PlaylistInfoBar} from 'spotyngular2/playlist/components/infobar/infoBar';
-import {PlaylistList} from 'spotyngular2/playlist/components/list/list';
+import {PlaylistHeader} from 'src/playlist/components/header/header';
+import {PlaylistInfoBar} from 'src/playlist/components/infobar/infoBar';
+import {PlaylistList} from 'src/playlist/components/list/list';
 
 @Component({
 	selector: 'spotyngular2-playlist-page'	

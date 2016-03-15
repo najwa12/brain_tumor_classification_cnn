@@ -1,6 +1,6 @@
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 
-import {Tooltip} from 'spotyngular2/tooltip';
+import {Tooltip} from 'src/tooltip';
 
 @Component({
 	selector: 'spotyngular2-browse-mini-card',

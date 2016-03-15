@@ -1,4 +1,4 @@
-import {Injectable, bind} from 'angular2/di';
+import {Injectable, bind} from 'angular2/core';
 import {Http, HttpFactory} from 'angular2/http';
 import {Observable} from 'rx';
 

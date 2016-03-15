@@ -1,19 +1,19 @@
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 import {RouteConfig, RouterOutlet} from 'angular2/router';
 
-import {LeftNav} from 'spotyngular2/leftnav/leftNav';
-import {BrowsePage} from 'spotyngular2/browse/page';
-import {PlaylistPage} from 'spotyngular2/playlist/page';
+import {LeftNav} from 'src/leftnav/leftNav';
+import {BrowsePage} from 'src/browse/page';
+import {PlaylistPage} from 'src/playlist/page';
 
 @RouteConfig([
   {
     path:"/",
-    as: "browse",
+    as: "Browse",
     component: BrowsePage
   },
   {
     path:"/playlist",
-    as: "playlist",
+    as: "PlayList",
     component: PlaylistPage
   }
 ])
@@ -24,4 +24,4 @@ import {PlaylistPage} from 'spotyngular2/playlist/page';
   templateUrl: 'src/app.html',
   directives: [LeftNav, RouterOutlet]
 })
-class SpotyngularApp{}
+export class SpotyngularApp{}

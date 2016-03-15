@@ -24,3 +24,6 @@ __MACOSX
 
 #OSX
 .DS_Store
+
+#Web matrix
+web.config

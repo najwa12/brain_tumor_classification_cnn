@@ -1,8 +1,8 @@
-import {Component, View} from 'angular2/angular2';
+import {Component, View} from 'angular2/core';
 
-import {BrowseTopNav} from 'spotyngular2/browse/components/topnav/topNav';
-import {BrowseMusicStrip} from 'spotyngular2/browse/components/musicstrip/musicStrip';
-import {BrowseGenresMoods} from 'spotyngular2/browse/components/genresmoods/genresMoods';
+import {BrowseTopNav} from 'src/browse/components/topnav/topNav';
+import {BrowseMusicStrip} from 'src/browse/components/musicstrip/musicStrip';
+import {BrowseGenresMoods} from 'src/browse/components/genresmoods/genresMoods';
 
 @Component({
 	selector: 'spotyngular2-browse-page'	

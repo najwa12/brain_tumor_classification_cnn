@@ -1,13 +1,13 @@
-import {NgFor, Component, View} from 'angular2/angular2';
-
-import {GenresService} from 'spotyngular2/browse/genresService';
-import {BrowseMiniCard} from 'spotyngular2/browse/components/minicard/miniCard';
+import {Component, View} from 'angular2/core';
+import {NgFor} from 'angular2/common';
+import {GenresService} from 'src/browse/genresService';
+import {BrowseMiniCard} from 'src/browse/components/minicard/miniCard';
 
 const SERVER = "http://localhost:3000/genres";
 
 @Component({
 	selector: 'spotyngular2-browse-genres-moods',
-	appInjector: [GenresService]
+	providers: [GenresService]
 })
 @View({
 	templateUrl: 'src/browse/components/genresmoods/genresMoods.html',
@@ -16,7 +16,7 @@ const SERVER = "http://localhost:3000/genres";
 export class BrowseGenresMoods{
 	genres: any = [];
 	constructor(private genresService: GenresService){
-		genresService.getGenres()
-					 .subscribe(genres => this.genres = genres);
+		/*genresService.getGenres()
+					 .subscribe(genres => this.genres = genres);*/
 	}
 }
