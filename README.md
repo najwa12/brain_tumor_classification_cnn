@@ -1,6 +1,5 @@
 # 🧠 AI-Powered Brain Tumor Classification: Advanced MRI Analysis with CNNs  
 
-## 🚀 Overview  
 This project leverages **Artificial Intelligence (AI)** and **Deep Learning** to detect and classify brain tumors from MRI scans. By using **Convolutional Neural Networks (CNNs)** and **Transfer Learning (TL)**, we tackle the challenges of accurate diagnosis and offer a scalable, automated solution to assist healthcare professionals worldwide.  
 
 ## 🩺 Why It Matters  
