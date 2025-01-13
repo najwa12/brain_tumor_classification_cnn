@@ -1,6 +1,45 @@
 # 🧠 AI-Powered Brain Tumor Classification: Advanced MRI Analysis with CNNs
 
-This project uses **Artificial Intelligence (AI)** and **Deep Learning (DL)** to accurately classify brain tumors from MRI scans. By employing **Convolutional Neural Networks (CNNs)** and **Transfer Learning (TL)**, we aim to tackle challenges in medical diagnostics and provide an automated, scalable solution for healthcare professionals worldwide.
+This project leverages **Artificial Intelligence (AI)** and **Deep Learning (DL)** techniques to accurately classify brain tumors from MRI scans. By utilizing **Convolutional Neural Networks (CNNs)** and **Transfer Learning (TL)**, we aim to address critical challenges in medical diagnostics and provide an automated, scalable solution for healthcare professionals around the globe.
+
+<p align="center">
+   <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
+   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+   <img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" />
+   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+   <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+   <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
+   <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
+</p>
+
+## 🙏 Acknowledgements
+
+We would like to extend our deepest gratitude to **[Santiago Hernández](https://www.udemy.com/user/shramos/)**, a renowned expert in Cybersecurity and Artificial Intelligence. His comprehensive **Deep Learning** course on Udemy was instrumental in shaping the development of this project. The knowledge gained from his course greatly influenced the design and architecture of the neural network used for this classifier.
+
+Special thanks to **sartajbhuvaji** for creating and sharing the **Brain Tumor Classification (MRI) Dataset** on Kaggle. This invaluable dataset, which contains MRI scans with labeled tumor types, has been fundamental in building and training the machine learning model. It has played a crucial role in the successful implementation of this brain tumor classifier.
+
+🌟 You can explore and access the dataset on [Kaggle](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri). Your contribution to the AI and data science community is highly appreciated! 🙌
+
+## 🌟 Explore My Other Deep Learning Projects! 🌟  
+
+If you found this project intriguing, I invite you to check out my other cutting-edge deep learning initiatives:  
+
+### [🌍 Advanced Classification of Disaster-Related Tweets Using Deep Learning 🚨](https://github.com/sergio11/disasters_prediction)  
+How does social media respond to crises in real time? This project focuses on **classifying tweets** to determine if they’re related to disasters or not. Using **deep learning** and enriched datasets, I uncover insights into how people discuss disasters on platforms like Twitter.  
+
+### [📰 Fighting Misinformation: Source-Based Fake News Classification 🕵️‍♂️](https://github.com/sergio11/fake_news_classifier)  
+In a world plagued by fake news, this project tackles the challenge of **authenticity in journalism**. Using **source-based analysis** and **machine learning**, I aim to classify news articles as real or fake, promoting a more informed and responsible media ecosystem.
+
+### [🛡️ IoT Network Malware Classifier with Deep Learning Neural Network Architecture 🚀](https://github.com/sergio11/iot_network_malware_classifier)  
+The Internet of Things (IoT) is transforming the world, but it also introduces new security challenges. This project leverages **Deep Learning Neural Networks** to classify and detect malware in IoT network traffic. By analyzing patterns with AI, it provides **proactive cybersecurity solutions** to safeguard interconnected devices. Explore the intricate process of model design and training with the **Keras framework**, detailed in the accompanying Jupyter Notebook.
+
+### [Spam Email Classification using LSTM 📧🤖](https://github.com/sergio11/spam_email_classifier_lstm)
+This project uses a Bi-directional LSTM model 📧🤖 to classify emails as spam or legitimate, utilizing NLP techniques like tokenization, padding, and stopword removal. It aims to create an effective email classifier 💻📊 while addressing overfitting with strategies like early stopping 🚫.
+
+### [💳 Fraud Detection Model with Deep Neural Networks (DNN)](https://github.com/sergio11?tab=repositories)  
+Fraudulent transactions can cause immense financial losses. This project leverages **Deep Neural Networks** to detect fraud in financial data, even in highly imbalanced datasets. Learn about my process, from **Exploratory Data Analysis (EDA)** to building a **scalable and efficient solution** for fraud detection. 
+
+Take a dive into these projects to see how **deep learning** is solving real-world problems and shaping the future of AI applications. Let's innovate together! 🚀
 
 ## 🩺 Why It Matters
 
