@@ -12,8 +12,6 @@ This project leverages **Artificial Intelligence (AI)** and **Deep Learning (DL)
    <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
 </p>
 
-## 🙏 Acknowledgements
-
 We would like to extend our deepest gratitude to **[Santiago Hernández](https://www.udemy.com/user/shramos/)**, a renowned expert in Cybersecurity and Artificial Intelligence. His comprehensive **Deep Learning** course on Udemy was instrumental in shaping the development of this project. The knowledge gained from his course greatly influenced the design and architecture of the neural network used for this classifier.
 
 Special thanks to **sartajbhuvaji** for creating and sharing the **Brain Tumor Classification (MRI) Dataset** on Kaggle. This invaluable dataset, which contains MRI scans with labeled tumor types, has been fundamental in building and training the machine learning model. It has played a crucial role in the successful implementation of this brain tumor classifier.
