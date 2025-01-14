@@ -134,15 +134,6 @@ The model achieved **high accuracy** and consistent performance across all class
 #### **Model Summary**:
 After configuring the model, the summary is displayed to visualize the architecture, layers, and parameters.
 
-## 🙌 Acknowledgements
-
-This project is inspired by the work of several talented individuals and the open-source community. Special thanks to:
-- **Sartaj Bhuvaji**
-- **Ankita Kadam**
-- **Prajakta Bhumkar**
-- **Sameer Dedge**
-
-Also, a big thank you to the open-source community for providing valuable datasets, pre-trained models, and other resources that made this project possible.
 
 ## **📚 References**
 - [Keras Documentation](https://keras.io/)
@@ -151,6 +142,14 @@ Also, a big thank you to the open-source community for providing valuable datase
 - [https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn](https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn)
 
 ## **🙏 Acknowledgments**
+
+This project is inspired by the work of several talented individuals and the open-source community. Special thanks to:
+- **Sartaj Bhuvaji**
+- **Ankita Kadam**
+- **Prajakta Bhumkar**
+- **Sameer Dedge**
+
+Also, a big thank you to the open-source community for providing valuable datasets, pre-trained models, and other resources that made this project possible.
 
 A huge **thank you** to **jaykumar1607** for his amazing notebook on [Brain Tumor MRI Classification using TensorFlow & CNN](https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn) on Kaggle. His work served as a great source of inspiration and learning for the development of this project. The techniques and ideas shared in his notebook were highly beneficial and contributed significantly to shaping the architecture and methodology used here. 🙌
 
