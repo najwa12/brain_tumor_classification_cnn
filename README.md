@@ -87,8 +87,13 @@ The model is built upon **EfficientNetB0**, a state-of-the-art Convolutional Neu
 ## 🛠️ Techniques and Methodology
 
 ### 1. **Transfer Learning (TL)**
-   - Transfer learning is a key technique that allows the model to leverage pre-trained knowledge from large datasets (like ImageNet) and fine-tune it for our specific task. This significantly reduces the time needed for training and improves accuracy, even when working with smaller datasets.
-   - We used **EfficientNetB0**, a highly optimized CNN model known for balancing computational efficiency and accuracy.
+   - **Transfer Learning** allows leveraging pre-trained models on large datasets like ImageNet, significantly reducing training time and improving accuracy, even with smaller datasets.
+   - In this project, we use **EfficientNetB0**, a highly optimized CNN model pre-trained on ImageNet.
+   - We load the pre-trained weights (`weights='imagenet'`) and exclude the final output layer (`include_top=False`) to tailor the model for brain tumor classification.
+   - Custom layers are added:
+     - **GlobalAveragePooling2D**: Reduces dimensionality while retaining important features.
+     - **Dropout**: Prevents overfitting by omitting neurons during training.
+     - **Dense Layer**: Final output layer with Softmax activation to classify images into tumor categories (glioma, no tumor, meningioma, pituitary).
 
 ### 2. **Data Augmentation**
    - To artificially increase the size of the training dataset, we applied data augmentation techniques, including rotations, flips, zooms, and translations. This helps the model generalize better and reduces overfitting.
@@ -125,23 +130,6 @@ The model achieved **high accuracy** and consistent performance across all class
 - 🏥 **Medical Impact**: Aimed at assisting radiologists and healthcare professionals in diagnosing brain tumors more accurately and quickly.
 - ⚙️ **Cloud-Ready**: Designed to be integrated into a cloud-based diagnostic system for real-time processing of MRI images.
 - 🔍 **High Accuracy**: With careful tuning and data augmentation, the model achieves near-perfect accuracy and generalization.
-
-## 🔄 Transfer Learning
-
-Training deep convolutional neural network models from scratch can be time-consuming, especially when working with large datasets. A more efficient approach is to use **Transfer Learning**, which involves reusing a pre-trained model and fine-tuning it for a specific task.
-
-### **Process Overview**:
-#### **Pre-trained Models**:
-In Transfer Learning, we leverage models that have already been trained on large, benchmark datasets, such as ImageNet. These models have learned features that can be generalized to other similar tasks, thus significantly reducing the time and computational resources required for training. The pre-trained model's weights are loaded and used as the starting point.
-
-#### **Using EfficientNetB0**:
-In this project, the **EfficientNetB0** model is used, which was pre-trained on the **ImageNet** dataset. The `weights='imagenet'` argument loads the pre-trained weights, and the `include_top=False` parameter excludes the final output layer, allowing us to add our own output layer tailored to our specific classification task (i.e., brain tumor classification).
-
-#### **Adding Custom Layers**:
-After loading the pre-trained model, additional layers are added to adapt it to the new task:
-- **GlobalAveragePooling2D**: Reduces the dimensionality of the feature maps by averaging the values, which helps decrease the computational load while retaining the important features.
-- **Dropout**: Randomly omits a fraction of neurons during training to prevent overfitting by making the model more robust.
-- **Dense Layer**: The final output layer, which uses the Softmax activation function to classify the image into one of four possible categories (glioma tumor, no tumor, meningioma tumor, pituitary tumor).
 
 #### **Model Summary**:
 After configuring the model, the summary is displayed to visualize the architecture, layers, and parameters.
