@@ -126,6 +126,26 @@ The model achieved **high accuracy** and consistent performance across all class
 - ⚙️ **Cloud-Ready**: Designed to be integrated into a cloud-based diagnostic system for real-time processing of MRI images.
 - 🔍 **High Accuracy**: With careful tuning and data augmentation, the model achieves near-perfect accuracy and generalization.
 
+## 🔄 Transfer Learning
+
+Training deep convolutional neural network models from scratch can be time-consuming, especially when working with large datasets. A more efficient approach is to use **Transfer Learning**, which involves reusing a pre-trained model and fine-tuning it for a specific task.
+
+### **Process Overview**:
+#### **Pre-trained Models**:
+In Transfer Learning, we leverage models that have already been trained on large, benchmark datasets, such as ImageNet. These models have learned features that can be generalized to other similar tasks, thus significantly reducing the time and computational resources required for training. The pre-trained model's weights are loaded and used as the starting point.
+
+#### **Using EfficientNetB0**:
+In this project, the **EfficientNetB0** model is used, which was pre-trained on the **ImageNet** dataset. The `weights='imagenet'` argument loads the pre-trained weights, and the `include_top=False` parameter excludes the final output layer, allowing us to add our own output layer tailored to our specific classification task (i.e., brain tumor classification).
+
+#### **Adding Custom Layers**:
+After loading the pre-trained model, additional layers are added to adapt it to the new task:
+- **GlobalAveragePooling2D**: Reduces the dimensionality of the feature maps by averaging the values, which helps decrease the computational load while retaining the important features.
+- **Dropout**: Randomly omits a fraction of neurons during training to prevent overfitting by making the model more robust.
+- **Dense Layer**: The final output layer, which uses the Softmax activation function to classify the image into one of four possible categories (glioma tumor, no tumor, meningioma tumor, pituitary tumor).
+
+#### **Model Summary**:
+After configuring the model, the summary is displayed to visualize the architecture, layers, and parameters.
+
 ## 🙌 Acknowledgements
 
 This project is inspired by the work of several talented individuals and the open-source community. Special thanks to:
@@ -135,6 +155,66 @@ This project is inspired by the work of several talented individuals and the ope
 - **Sameer Dedge**
 
 Also, a big thank you to the open-source community for providing valuable datasets, pre-trained models, and other resources that made this project possible.
+
+## **📚 References**
+- [Keras Documentation](https://keras.io/)
+- [TensorFlow Documentation](https://www.tensorflow.org/)
+- [https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
+- [https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn](https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn)
+
+## **🙏 Acknowledgments**
+
+A huge **thank you** to **jaykumar1607** for his amazing notebook on [Brain Tumor MRI Classification using TensorFlow & CNN](https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn) on Kaggle. His work served as a great source of inspiration and learning for the development of this project. The techniques and ideas shared in his notebook were highly beneficial and contributed significantly to shaping the architecture and methodology used here. 🙌
+
+Also, a heartfelt **thank you** to **sartajbhuvaji** for providing the dataset that made this project possible! 🌟 The dataset can be found on [Kaggle](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri). Your contribution is greatly appreciated! 🙏
+
+🙏 I would like to extend my gratitude to [Santiago Hernández, an expert in Cybersecurity and Artificial Intelligence](https://www.udemy.com/user/shramos/). His incredible course on Deep Learning, available at Udemy, was instrumental in shaping the development of this project. The insights and techniques learned from his course were crucial in crafting the neural network architecture used in this classifier.
+
+## Visitors Count
+
+<img width="auto" src="https://profile-counter.glitch.me/brain_tumor_classification_cnn/count.svg" />
+
+## Please Share & Star the repository to keep me motivated.
+<a href = "https://github.com/sergio11/brain_tumor_classification_cnn/stargazers">
+   <img src = "https://img.shields.io/github/stars/sergio11/brain_tumor_classification_cnn" />
+</a>
+
+## License ⚖️
+
+This project is licensed under the MIT License, an open-source software license that allows developers to freely use, copy, modify, and distribute the software. 🛠️ This includes use in both personal and commercial projects, with the only requirement being that the original copyright notice is retained. 📄
+
+Please note the following limitations:
+
+- The software is provided "as is", without any warranties, express or implied. 🚫🛡️
+- If you distribute the software, whether in original or modified form, you must include the original copyright notice and license. 📑
+- The license allows for commercial use, but you cannot claim ownership over the software itself. 🏷️
+
+The goal of this license is to maximize freedom for developers while maintaining recognition for the original creators.
+
+```
+MIT License
+
+Copyright (c) 2024 Dream software - Sergio Sánchez 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
 
 
 
