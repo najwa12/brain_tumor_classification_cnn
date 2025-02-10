@@ -41,6 +41,9 @@ This project uses a Bi-directional LSTM model 📧🤖 to classify emails as spa
 ### [💳 Fraud Detection Model with Deep Neural Networks (DNN)](https://github.com/sergio11?tab=repositories)  
 Fraudulent transactions can cause immense financial losses. This project leverages **Deep Neural Networks** to detect fraud in financial data, even in highly imbalanced datasets. Learn about my process, from **Exploratory Data Analysis (EDA)** to building a **scalable and efficient solution** for fraud detection. 
 
+### [Predicting Diabetes Diagnosis Using Machine Learning 📊💉](https://github.com/sergio11/diabetes_prediction_ml)
+Predicting diabetes using machine learning models based on medical data 📊💉. The goal is to create an accurate and reliable diagnostic tool for early detection 🏥🤖.
+
 Take a dive into these projects to see how **deep learning** is solving real-world problems and shaping the future of AI applications. Let's innovate together! 🚀
 
 ## 🩺 Why It Matters
