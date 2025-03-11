@@ -22,6 +22,12 @@ Special thanks to **sartajbhuvaji** for creating and sharing the **Brain Tumor C
 
 🌟 You can explore and access the dataset on [Kaggle](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri). Your contribution to the AI and data science community is highly appreciated! 🙌
 
+## ⚠️ Disclaimer  
+
+This project has been developed **exclusively for research and educational purposes** to explore the potential of AI in medical image analysis. While the **AI-powered brain tumor classification system** demonstrates promising results, it is an **experimental prototype** and **not intended for clinical or diagnostic use**.  
+
+The primary objective of this project is to gain hands-on experience with **deep learning**, **computer vision**, and **transfer learning techniques** in the context of medical imaging
+
 ## 🌟 Explore My Other Cutting-Edge AI Projects! 🌟
 
 If you found this project intriguing, I invite you to check out my other AI and machine learning initiatives, where I tackle real-world challenges across various domains:
@@ -196,6 +202,12 @@ This project highlights how **machine learning**, when combined with **domain ex
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - [https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
 - [https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn](https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn)
+
+## ⚠️ Disclaimer  
+
+This project has been developed **exclusively for research and educational purposes** to explore the potential of AI in medical image analysis. While the **AI-powered brain tumor classification system** demonstrates promising results, it is an **experimental prototype** and **not intended for clinical or diagnostic use**.  
+
+The primary objective of this project is to gain hands-on experience with **deep learning**, **computer vision**, and **transfer learning techniques** in the context of medical imaging
 
 ## **🙏 Acknowledgments**
 
