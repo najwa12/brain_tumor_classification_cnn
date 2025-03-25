@@ -22,6 +22,8 @@ Special thanks to **sartajbhuvaji** for creating and sharing the **Brain Tumor C
 
 🌟 You can explore and access the dataset on [Kaggle](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri). Your contribution to the AI and data science community is highly appreciated! 🙌
 
+A huge **thank you** to **jaykumar1607** for his amazing notebook on [Brain Tumor MRI Classification using TensorFlow & CNN](https://www.kaggle.com/code/jaykumar1607/brain-tumor-mri-classification-tensorflow-cnn) on Kaggle. His work served as a great source of inspiration and learning for the development of this project. The techniques and ideas shared in his notebook were highly beneficial and contributed significantly to shaping the architecture and methodology used here. 🙌
+
 ## ⚠️ Disclaimer  
 
 This project has been developed **exclusively for research and educational purposes** to explore the potential of AI in medical image analysis. While the **AI-powered brain tumor classification system** demonstrates promising results, it is an **experimental prototype** and **not intended for clinical or diagnostic use**.  
