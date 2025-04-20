@@ -1,10 +1,10 @@
 # 🧠 AI-Powered Brain Tumor Classification: Advanced MRI Analysis with CNNs
 
-The early and accurate diagnosis of brain tumors is one of the most critical challenges in modern medicine. This project leverages the transformative potential of **Artificial Intelligence (AI)** and **Deep Learning (DL)** to develop a powerful, automated system for classifying brain tumors from MRI scans. By utilizing state-of-the-art **Convolutional Neural Networks (CNNs)** and **Transfer Learning (TL)** techniques, this solution is designed to assist healthcare professionals in making faster and more accurate diagnoses, ultimately improving patient outcomes.  
+As part of a Deep Learning course, this project was developed as a hands-on opportunity to apply what we learned in class to a real-world, high-impact problem: the automatic classification of brain tumors using MRI scans. This experience was all about learning by doing — experimenting, iterating, and connecting theory with practice 🤓.
 
-The approach is built upon the **EfficientNetB0** model, a cutting-edge architecture pre-trained on the **ImageNet** dataset. By fine-tuning this model for the specific task of brain tumor classification, we effectively combine the power of large-scale learning with the flexibility needed for specialized medical applications.  
+Using the powerful capabilities of **Convolutional Neural Networks (CNNs)** and **Transfer Learning (TL)**, we explored how modern AI techniques can support medical diagnosis and improve patient care. The heart of our approach is based on **EfficientNetB0**, a state-of-the-art model pre-trained on the **ImageNet** dataset. We fine-tuned it specifically for brain tumor classification, gaining hands-on experience in adapting large models to specific domains 🧩.
 
-This project not only exemplifies the potential of AI in healthcare but also showcases how innovative technology can address pressing global challenges, offering solutions that are efficient, reliable, and scalable. Whether you're a researcher, a healthcare professional, or an AI enthusiast, this initiative highlights the incredible possibilities of applying deep learning to save lives and advance medical science.
+Working with real MRI data helped solidify key concepts like data preprocessing, model training and validation, and the importance of evaluating results in a meaningful way. Throughout the process, we not only deepened our understanding of neural networks, but also gained insight into the potential — and responsibility — of applying AI in sensitive areas like healthcare 🏥.
 
 <p align="center">
    <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
