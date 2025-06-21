@@ -231,11 +231,6 @@ Also, a heartfelt **thank you** to **sartajbhuvaji** for providing the dataset t
 
 <img width="auto" src="https://profile-counter.glitch.me/brain_tumor_classification_cnn/count.svg" />
 
-## Please Share & Star the repository to keep me motivated.
-<a href = "https://github.com/sergio11/brain_tumor_classification_cnn/stargazers">
-   <img src = "https://img.shields.io/github/stars/sergio11/brain_tumor_classification_cnn" />
-</a>
-
 ## License ⚖️
 
 This project is licensed under the MIT License, an open-source software license that allows developers to freely use, copy, modify, and distribute the software. 🛠️ This includes use in both personal and commercial projects, with the only requirement being that the original copyright notice is retained. 📄
