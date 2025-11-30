@@ -55,7 +55,7 @@ The model is currently built upon **EfficientNetB0**, a state-of-the-art Convolu
    - The final output layer uses softmax activation to classify the input into one of four classes: Glioma Tumor, No Tumor, Meningioma Tumor, and Pituitary Tumor.
 
 5. **Optimizer and Loss Function**:
-   - **Adam optimizer** is used for efficient weight updates.
+   - The **Adam optimizer** is used for efficient weight updates.
    - The loss function is **categorical crossentropy**, suitable for multi-class classification.
 
 ## Techniques and Methodology
@@ -69,18 +69,21 @@ The model is currently built upon **EfficientNetB0**, a state-of-the-art Convolu
      - **Dropout**: Prevents overfitting by omitting neurons during training.
      - **Dense Layer**: Final output layer with Softmax activation to classify images into tumor categories (glioma, no tumor, meningioma, pituitary).
 
-### 2. **Data Augmentation**
-   - To be added later
+### 2. **Adding Noise to the Training Images**
+   - Three types of noise were added to the training images only: **Gaussian noise**, **salt-and-pepper noise**, and **speckle noise**. These types of noise were added randomly at varying intensities. Noise was only added to the training images to prevent data leakage and to ensure that the model generalizes to both noisy and non-noisy brain MRI images.
 
-### 3. **Model Optimization**
-   - To be added later
+### 3. **Data Augmentation**
+   - The types of data augmentation used include **rotations**, **width shifts**, **height shifts**, and **horizontal flips**. **ImageDataGenerator** is used to create these augmented images.
 
-### 4. **Hyperparameter Tuning**
-   - To be added later
+### 4. **De-Duplication**
+   - **Perceptual hashing** was used to remove near-duplicate images, since perceptual hashing assesses the similarity of images.
+
+### 5. **Hyperparameter Tuning**
+   - The hyperparameter that was tuned is the **number of epochs**. Increasing the number of epochs from 12 to 20 improved the generalization of the model by allowing it to train for longer.
 
 ## Results and Performance
 
-To be added later
+The results in the .ipynb file indicate that removing duplicates, adding noise to the training images only, using data augmentation and increasing the number of epochs improved the generalization of the model by reducing data leakage and forcing the model to generalize to noisy and non-noisy data rather than memorize patterns in clean data. Overfitting has been reduced, which can be seen by how the validation curves increase/decrease relative to the training curves, and how precision, recall, and F1-score dropped to more realistic values.
 
 ## Disclaimer  
 
